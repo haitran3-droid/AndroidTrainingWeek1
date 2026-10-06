@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AIDL Server</string>
+    <string name="title">AIDL · Server</string>
+    <string name="server_pid">PID màn hình Server: %1$d</string>
+    <string name="description">Ứng dụng này cung cấp BookManagerService cho Client qua Binder IPC.</string>
+    <string name="steps">1. Cài cả AIDL Server và AIDL Client.\n\n2. Mở AIDL Client; Client tự kết nối và đọc 2 sách mẫu.\n\n3. Thêm sách ở Client để nhận callback từ Server.</string>
+    <string name="process_note">Service chạy trong tiến trình com.example.server:remote. PID của Service hiển thị ở Client khác PID màn hình này. Service tự tạo khi Client bind; không cần mở màn hình Server trước.</string>
+    <string name="memory_note">Dữ liệu demo chỉ lưu trong RAM. Khi Service bị hủy hoặc tiến trình bị kill, danh sách trở về 2 sách mẫu.</string>
+    <string name="permission_note">Hai app debug được ký cùng certificate. Service dùng quyền signature để giới hạn app được kết nối.</string>
+</resources>

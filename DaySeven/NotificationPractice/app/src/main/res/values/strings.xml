@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Notification Practice</string>
+    <string name="screen_title">Thông báo tin nhắn</string>
+    <string name="screen_intro">Tạo A rồi B. Nhấn Home, mở bảng thông báo và chạm từng tin nhắn để kiểm tra dữ liệu nhận được.</string>
+    <string name="permission_enabled">Thông báo: đã bật</string>
+    <string name="permission_disabled">Thông báo: chưa được phép hoặc đã bị tắt</string>
+    <string name="permission_request">Cấp quyền thông báo</string>
+    <string name="permission_settings">Cài đặt thông báo</string>
+    <string name="permission_needed">Hãy cấp quyền hoặc bật thông báo trong Cài đặt, rồi thử lại.</string>
+    <string name="permission_denied">Bạn chưa cấp quyền. App vẫn sử dụng được và không gửi thông báo.</string>
+    <string name="broken_mode">Thử lỗi: dùng chung Content PendingIntent</string>
+    <string name="mode_safe">Cách đúng: A/B có requestCode riêng. Chạm A mở A, chạm B mở B.</string>
+    <string name="mode_broken">Thử lỗi: A/B cùng requestCode, chỉ đổi extras. Tạo A rồi B → chạm A sẽ nhận B. Nút Đã đọc vẫn dùng token riêng.</string>
+    <string name="message_a_title">Tin nhắn A · PendingIntent</string>
+    <string name="message_a_body">PendingIntent cho phép hệ thống thực hiện Intent thay mặt ứng dụng.</string>
+    <string name="message_b_title">Tin nhắn B · Content Intent</string>
+    <string name="message_b_body">Content Intent là PendingIntent được gắn vào thao tác chạm thông báo bằng setContentIntent().</string>
+    <string name="message_status">message_id = %1$s · %2$s</string>
+    <string name="read">Đã đọc</string>
+    <string name="unread">Chưa đọc</string>
+    <string name="notify_a">Tạo thông báo A</string>
+    <string name="notify_b">Tạo thông báo B</string>
+    <string name="mark_read">Đánh dấu đã đọc</string>
+    <string name="reset">Đặt lại bài tập</string>
+    <string name="reset_done">Đã xóa trạng thái đã đọc và hai thông báo.</string>
+    <string name="posted">Đã gửi thông báo %1$s. Mở bảng thông báo để thử.</string>
+    <string name="detail_title">Chi tiết tin nhắn</string>
+    <string name="detail_id">message_id nhận được = %1$s</string>
+    <string name="detail_source">Màn hình này nhận dữ liệu qua Intent do Content PendingIntent thực hiện.</string>
+    <string name="back_to_list">Về danh sách</string>
+    <string name="unknown_message">Không tìm thấy tin nhắn</string>
+    <string name="unknown_id">Không có ID hợp lệ</string>
+    <string name="channel_name">Tin nhắn thực hành</string>
+    <string name="channel_description">Thông báo mẫu để học PendingIntent và Content Intent</string>
+</resources>

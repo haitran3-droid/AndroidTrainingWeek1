@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">AIDL Client</string>
+    <string name="title">AIDL · Client</string>
+    <string name="subtitle">Gọi Service ở app khác · nhận callback qua Binder</string>
+    <string name="connect">Kết nối lại</string>
+    <string name="disconnect">Ngắt kết nối</string>
+    <string name="load">Đọc danh sách</string>
+    <string name="add">Thêm sách qua AIDL</string>
+    <string name="connecting">Đang bind tới Server…</string>
+    <string name="registering">Đã bind · đang đăng ký callback…</string>
+    <string name="connected">Đã kết nối · callback sẵn sàng</string>
+    <string name="disconnected">Đã ngắt kết nối</string>
+    <string name="connection_lost">Server mất kết nối · chờ hệ thống nối lại hoặc bấm Kết nối lại</string>
+    <string name="binding_died">Binding đã chết · bấm Kết nối lại</string>
+    <string name="null_binding">Server không trả Binder · kiểm tra Service</string>
+    <string name="server_missing">Chưa tìm thấy Server · cài AIDL Server trước</string>
+    <string name="permission_error">Không có quyền bind · kiểm tra permission và certificate hai app</string>
+    <string name="request_failed">Lời gọi thất bại (%1$s) · bấm Kết nối lại</string>
+    <string name="client_pid">PID Client: %1$d</string>
+    <string name="process_pair">PID Client: %1$d · PID Service: %2$d</string>
+    <string name="book_name">Tên sách</string>
+    <string name="book_author">Tác giả</string>
+    <string name="sample_name">Learning AIDL</string>
+    <string name="sample_author">Android Learner</string>
+    <string name="add_heading">1. Gửi Parcelable sang Server</string>
+    <string name="add_note">Giá demo: 29.99 · Server tự cấp ID</string>
+    <string name="callback_heading">2. Callback từ Server</string>
+    <string name="callback_hint">Chưa nhận callback trong phiên kết nối này</string>
+    <string name="callback_received">Đã nhận %1$d callback\nSách mới nhất: %2$s</string>
+    <string name="list_heading">3. Danh sách từ lời gọi đồng bộ</string>
+    <string name="list_hint">Kết nối để đọc dữ liệu từ Server</string>
+    <string name="empty_list">Chưa có sách</string>
+    <string name="book_count">Tổng số sách: %1$d</string>
+    <string name="book_row">#%1$d · %2$s\n%3$s · Giá: %4$.2f</string>
+    <string name="required">Vui lòng nhập nội dung</string>
+</resources>

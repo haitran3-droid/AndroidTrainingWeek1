@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MiniGallery</string>
+    <string name="search_hint">Tìm kiếm ảnh theo tên…</string>
+    <string name="sort_tooltip">Sắp xếp danh sách</string>
+    <string name="sort_date_desc">Mới nhất trước</string>
+    <string name="sort_date_asc">Cũ nhất trước</string>
+    <string name="sort_name_asc">Tên (A → Z)</string>
+    <string name="sort_name_desc">Tên (Z → A)</string>
+
+    <string name="permission_denied_title">Chưa được cấp quyền đọc ảnh</string>
+    <string name="permission_denied_desc">Ứng dụng cần quyền đọc ảnh để hiển thị thư viện trên thiết bị của bạn.</string>
+    <string name="permission_grant_btn">Cấp quyền ngay</string>
+
+    <string name="permission_partial_title">Quyền truy cập một phần (Android 14+)</string>
+    <string name="permission_partial_desc">Bạn đang cho phép ứng dụng truy cập một số ảnh đã chọn.</string>
+    <string name="permission_manage_btn">Quản lý / Chọn thêm ảnh</string>
+
+    <string name="btn_add_photos">Thêm ảnh (tối đa 10)</string>
+    <string name="empty_gallery_msg">Thư viện trống hoặc chưa có ảnh nào</string>
+    <string name="empty_search_msg">Không tìm thấy ảnh nào khớp với từ khóa</string>
+    <string name="photo_count_format">Đang hiển thị %1$d / %2$d ảnh</string>
+
+    <string name="dialog_details_title">Chi tiết Metadata ảnh</string>
+    <string name="label_file_name">Tên file:</string>
+    <string name="label_content_uri">Content URI:</string>
+    <string name="label_mime_type">MIME Type:</string>
+    <string name="label_file_size">Dung lượng:</string>
+    <string name="label_date_added">Ngày thêm:</string>
+    <string name="btn_close">Đóng</string>
+</resources>

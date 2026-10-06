@@ -1,0 +1,37 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:id="@+id/root" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/title" android:textSize="28sp" android:textStyle="bold" android:textColor="#155E75" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/subtitle" android:layout_marginBottom="16dp" />
+        <TextView android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/disconnected" android:textStyle="bold" android:textSize="16sp" android:accessibilityLiveRegion="polite" />
+        <TextView android:id="@+id/process_info" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" android:layout_marginBottom="8dp" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:id="@+id/connect" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="@string/connect" />
+            <Button android:id="@+id/disconnect" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="@string/disconnect" />
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/add_heading" android:textSize="18sp" android:textStyle="bold" android:layout_marginTop="16dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/add_note" />
+        <EditText android:id="@+id/book_name" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="48dp" android:hint="@string/book_name" android:text="@string/sample_name"
+            android:inputType="textCapWords" android:maxLength="120" android:autofillHints="" />
+        <EditText android:id="@+id/book_author" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="48dp" android:hint="@string/book_author" android:text="@string/sample_author"
+            android:inputType="textPersonName" android:maxLength="120" android:autofillHints="" />
+        <Button android:id="@+id/add" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/add" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/callback_heading" android:textSize="18sp" android:textStyle="bold" android:layout_marginTop="16dp" />
+        <TextView android:id="@+id/callback_log" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/callback_hint" android:padding="12dp" android:background="#E0F2F1" android:accessibilityLiveRegion="polite" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/list_heading" android:textSize="18sp" android:textStyle="bold" android:layout_marginTop="16dp" />
+        <Button android:id="@+id/load" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/load" />
+        <TextView android:id="@+id/book_list" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/list_hint" android:textSize="16sp" android:textIsSelectable="true" android:paddingBottom="16dp" />
+    </LinearLayout>
+</ScrollView>

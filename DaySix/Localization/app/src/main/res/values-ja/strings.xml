@@ -1,0 +1,11 @@
+<resources>
+    <string name="title">言語設定</string>
+    <string name="name_hint">お名前</string>
+    <string name="greeting">こんにちは、%1$sさん！</string>
+    <string name="zero">メッセージはありません</string>
+    <plurals name="messages">
+        <item quantity="one">%d件のメッセージ</item>
+        <item quantity="other">%d件のメッセージ</item>
+    </plurals>
+    <string name="system">システム設定</string>
+</resources>

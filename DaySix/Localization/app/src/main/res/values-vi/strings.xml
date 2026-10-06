@@ -1,0 +1,11 @@
+<resources>
+    <string name="title">Cài đặt ngôn ngữ</string>
+    <string name="name_hint">Tên của bạn</string>
+    <string name="greeting">Xin chào, %1$s!</string>
+    <string name="zero">Không có tin nhắn</string>
+    <plurals name="messages">
+        <item quantity="one">%d tin nhắn</item>
+        <item quantity="other">%d tin nhắn</item>
+    </plurals>
+    <string name="system">Theo hệ thống</string>
+</resources>
